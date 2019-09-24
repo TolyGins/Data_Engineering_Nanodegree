@@ -32,7 +32,7 @@ airflow
 
 ### DAG Structure
 
-![Alt text](/DAG_Graph_View.png/img.jpg?raw=true "DAG Graph View")
+![DAG_Graph_view](https://user-images.githubusercontent.com/10493680/65535284-56a02880-debe-11e9-963d-d30cb32eff8a.png)
 
 
 ### DAG Configuration
