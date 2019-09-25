@@ -1,0 +1,15 @@
+{
+    "jsonpaths": [
+        "$.event.generalInfo.userId"
+        , "$.event.generalInfo.appVer"
+        , "$.event.generalInfo.platform"
+        , "$.states.device.country"
+        , "$.event.generalInfo.eventTimestamp"
+        , "$.event.generalInfo.sessionId"
+        , "$.event.generalInfo.eventId"
+        , "$.states.session.session_purchases"
+        , "$.states.session.session_value"
+        , "$.event"
+
+    ]
+}
