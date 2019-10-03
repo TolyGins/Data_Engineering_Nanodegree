@@ -34,8 +34,6 @@ df.head(3)
 ```
 
 
-
-
 <div>
 <style>
     .dataframe thead tr:only-child th {
@@ -163,10 +161,7 @@ The game player data load contained **1.2 million rows** while singular data is 
 
 ### Data Model
 
-
-```python
-insert table image here
-```
+![Table_Model](https://user-images.githubusercontent.com/10493680/66167263-ddf44700-e5f6-11e9-8277-a32d771da25b.png)
 
 The tables above reflect the initial schema of our tables. Each user event will have its own table to take advantage of Redshift's columnar storage. Furthermore, future tables will combine player data with singular data to calculate ROI for user acquisition campaigns.   
 
