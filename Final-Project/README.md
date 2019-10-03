@@ -67,5 +67,4 @@ Here are the detailed steps outlined in the model above:
 1. **airflow_docker_setup** : This folder contains the environment to run the etl queries using the Airflow DAG.The folder is setup for easy deployment of Airflow to the cloud.
 2. **images** : These are screenshots of the data model and Redshift Tables
 3. **lambda_code** : This folder contains the zipped files and libraries to run the etl using AWS Lambda service. The main modification is changing the S3 bucket/file to be dynamic based on the event trigger 
-4. **tests**: This folder contains a unit tests that confirm that our queries ran successfully
-5. 
+4. **data_file_examples**: This contains example data files from our two sources of data
