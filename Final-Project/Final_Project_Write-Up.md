@@ -167,7 +167,7 @@ The tables above reflect the initial schema of our tables. Each user event will 
 
 ### Proposed Data Pipeline
 
-insert image here 
+![Tech_Stack](https://user-images.githubusercontent.com/10493680/66167396-4511fb80-e5f7-11e9-9626-9fe0c5948ddd.png)
 
 The model above outlines the tools that are utilized by this pipeline
 Since a major goal of this pipeline is scalability and cost savings, I have chosen tools that maximize those factors. 
