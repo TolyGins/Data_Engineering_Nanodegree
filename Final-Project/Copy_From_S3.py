@@ -17,15 +17,14 @@ credentials 'aws_iam_role={}'
 format as json {}
 STATUPDATE ON
 region 'us-west-2'
-""").format (EVENT_DATA_PATH, ARN, EVENT_SCHEMA)
+""").format(EVENT_DATA_PATH, ARN,EVENT_SCHEMA)
 
 
 copy_kochava = ("""
 COPY public.kochava_installs
  FROM {}
  credentials 'aws_iam_role={}'
- csv
- delimiter as ',' 
+ format as json 'auto'
  gzip
  """
 ).format (KOCHAVA_PATH, ARN)
@@ -40,4 +39,4 @@ COPY public.singular_raw
  """
 ).format (SINGULAR_PATH, ARN)
 
-copy_comands =[copy_singular, copy_kochava, copy_stage]
+copy_comands =[copy_singular, copy_stage]
