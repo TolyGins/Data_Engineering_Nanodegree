@@ -44,10 +44,8 @@ Here are the detailed steps outlined in the model above:
 
 ### Data Model
 
+![Table_Model](https://user-images.githubusercontent.com/10493680/66167263-ddf44700-e5f6-11e9-8277-a32d771da25b.png)
 
-```python
-! image
-```
 
 ### DAG
 
