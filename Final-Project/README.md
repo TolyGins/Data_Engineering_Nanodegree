@@ -49,10 +49,8 @@ Here are the detailed steps outlined in the model above:
 
 ### DAG
 
+![DAG](https://user-images.githubusercontent.com/10493680/66167338-1431c680-e5f7-11e9-9a55-fd7a6a276b39.png)
 
-```python
-! image
-```
 
 ### Running Project
 
