@@ -1,6 +1,6 @@
 -i https://pypi.org/simple
 alembic==1.2.1
-apache-airflow==1.10.5
+apache-airflow==2.3.4
 apispec[yaml]==3.0.0
 attrs==19.1.0
 babel==2.7.0
